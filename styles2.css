@@ -175,10 +175,60 @@ header .banner{
 
 		.simple img{
 		    margin-right: 3em;
-		    max-width: 200px;
+		    max-width: 250px;
 		    max-height: 250px;
+    		border-radius: 5%;
+		}
 
-		    background: aliceblue;
+/*right-now section*/
+
+	.right-now{
+		padding: 4em 0;
+
+		display: flex;
+		justify-content: flex-start;
+	}
+
+		.rn-text{
+			display: flex;
+			flex-flow: column;
+		}
+
+		.rn-text p{
+			margin: 0;
+    		margin-bottom: 1em;
+		}
+
+			.more-information{
+				padding-top: 1em;
+
+				display: flex;
+				flex-flow: row;
+				align-items: center;
+				text-align: center;
+
+			}
+
+				.more-information p{
+					margin: 0 .5rem;
+				}
+
+				.more-information .btn{
+					width: 150px;
+					color: red;
+					padding: .5em;
+					border-radius: 5%;
+				}
+
+				.more-information .red{
+					background: red;
+					color: white;
+				}
+
+		.right-now img{
+			margin-left: 3em;
+		    max-width: 250px;
+		    max-height: 250px;
     		border-radius: 5%;
 		}
 
