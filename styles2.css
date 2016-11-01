@@ -1,0 +1,186 @@
+progress,sub,sup{vertical-align:baseline;}button,hr,input{overflow:visible;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;} figcaption, menu,article,aside,details,figure,footer,header,main,nav,section,summary{display:block;}audio,canvas,progress,video{display:inline-block;}audio:not([controls]){display:none;height:0;} [hidden],template{display:none;}a{background-color:transparent;-webkit-text-decoration-skip:objects;}a:active,a:hover{outline-width:0;}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted;}b,strong{font-weight:bolder;}dfn{font-style:italic;}h1{font-size:2em;margin:.67em 0;}mark{background-color:#ff0;color:#000;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;}sub{bottom:-.25em;}sup{top:-.5em;}img{border-style:none;}svg:not(:root){overflow:hidden;}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;}figure{margin:1em 40px;}hr{box-sizing:content-box;height:0;}button,input,select,textarea{font:inherit;margin:0;}optgroup{font-weight:700;}button,input{}button,select{text-transform:none;}[type=submit], [type=reset],button,html [type=button]{-webkit-appearance:button;}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0;}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal;}textarea{overflow:auto;}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0;}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto;}[type=search]{-webkit-appearance:textfield;outline-offset:-2px;}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-input-placeholder{color:inherit;opacity:.54;}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}
+
+.clearfix:after{visibility:hidden;display:block;content:" ";clear:both;height:0;}
+
+html{box-sizing:border-box;}*,*:before,*:after{box-sizing:inherit;}
+
+
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover{
+	opacity: 0.5;
+}
+
+section{
+	margin: 0 6em;
+}
+
+
+/*header*/
+
+header .banner{
+	height: 10em;
+	border-bottom: 3px solid lightgrey;
+	display: flex;
+	justify-content: flex-end;
+}
+
+	.header-icons{
+		padding-right: 2em;
+		width: 20%;
+
+		display: flex;
+		flex-flow: row;
+		align-items: center;
+	}
+		
+		.header-icons a{
+				color: white;
+		}
+
+		.header-icons .icon{
+			margin: 0 .5em;
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;
+			background: lightgrey;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+
+			.icon i{
+				font-size: 1.3rem;
+			}
+
+			
+
+	.slogan{
+		width: 80%;
+		padding: 0 2em;
+
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+
+	}
+		.slogan a{
+			color: white;
+		}
+
+		.slogan .icon{
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;
+			background: red;
+			margin-right: 1em;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+		.slogan h1{
+			border-right: 3px solid lightgrey;
+			margin-right: 1em;
+			padding-right: 1em;
+		}
+
+
+/*hero section*/
+
+	.hero{
+		padding-top: 2em;
+
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+		align-items: center;
+
+		text-align: center;
+	}
+		
+		.hero h2{
+			max-width: 70%;
+		}
+		
+		.hero div{
+			height: 17em;
+		}
+
+		.hero img{
+			height: 100%;
+			width: 100%;
+
+		}
+
+
+/*blurb section*/
+
+	.blurb{
+		padding: 4em 0;
+		
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+		.blurb-child{
+			width: 100%;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-flow: column;
+
+			text-align: center;
+		}
+
+			.blurb-child i{
+				font-size: 3rem;
+				color: red;
+			}
+
+		.spacer{
+			width: 30px;
+			border-bottom: 2px solid lightgrey;
+		}
+
+
+/*simple section*/
+
+	.simple{
+		padding: 4em 0;
+		border-bottom: 2px solid lightgrey;
+		border-top: 2px solid lightgrey;
+
+		display: flex;
+		justify-content: flex-end;
+	}
+
+		.simple-text{
+			
+			display: flex;
+    		flex-flow: column;
+		}
+
+		.simple img{
+		    margin-right: 3em;
+		    max-width: 200px;
+		    max-height: 250px;
+
+		    background: aliceblue;
+    		border-radius: 5%;
+		}
+
+
+
